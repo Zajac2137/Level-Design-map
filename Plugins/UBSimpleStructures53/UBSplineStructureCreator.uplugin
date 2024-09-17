@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "UB Simple Structures",
+	"Description": "Create buildings (with staircases and roofs), walls, roads, tunnels, bridges and more. If using landscapes, provides tools for deforming landscapes non-destructively and conforming the structure to the landscape.",
+	"Category": "Mesh",
+	"CreatedBy": "Unreality Bites",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UBSplineStructureCreator",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		}
+	]
+}
